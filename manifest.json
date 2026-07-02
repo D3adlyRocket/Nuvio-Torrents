@@ -1,0 +1,20 @@
+{
+  "name": "Torrentio",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "torrentio",
+      "name": "🧲 Torrentio",
+      "description": "Movies and shows streaming",
+      "version": "1.0.0",
+      "author": "Phisher",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/torrentio.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": ["mp4", "m3u8"],
+      "logo": "https://i.postimg.cc/ZRYTCy0T/torrentio.png",
+      "contentLanguage": ["en", "hi"]
+      }
+  ]
+}
