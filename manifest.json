@@ -15,6 +15,21 @@
       "formats": ["mp4", "m3u8"],
       "logo": "https://i.postimg.cc/ZRYTCy0T/torrentio.png",
       "contentLanguage": ["en", "hi"]
+    },
+    {
+      "id": "piratebay",
+      "name": "🏴‍☠️ ThePirateBay",
+      "description": "4K & 1080p torrent magnet links via TPB API",
+      "version": "1.0.0",
+      "author": "4K Providers",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/piratebay.js",
+      "enabled": true,
+      "logo": "",
+      "contentLanguage": ["en"],
+      "formats": ["mkv", "mp4"],
+      "limited": false,
+      "supportsExternalPlayer": true
       }
   ]
 }
