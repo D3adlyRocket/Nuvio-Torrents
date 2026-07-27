@@ -40,7 +40,7 @@
       "supportedTypes": ["movie", "tv"],
       "filename": "providers/piratebay.js",
       "enabled": true,
-      "logo": "",
+      "logo": "https://i.postimg.cc/0NqtNmBW/piratebay.png",
       "contentLanguage": ["en"],
       "formats": ["mkv", "mp4"],
       "limited": false,
