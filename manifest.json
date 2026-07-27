@@ -1,5 +1,5 @@
 {
-  "name": "Torrentio",
+  "name": "Nuvio Torrents",
   "version": "1.0.0",
   "scrapers": [
     {
@@ -7,7 +7,7 @@
       "name": "🧲 Torrentio",
       "description": "Movies and shows streaming",
       "version": "1.0.0",
-      "author": "Phisher",
+      "author": "Nuvio Team",
       "supportedTypes": ["movie", "tv"],
       "filename": "providers/torrentio.js",
       "enabled": true,
@@ -17,11 +17,26 @@
       "contentLanguage": ["en", "hi"]
     },
     {
+      "id": "torrentclaw",
+      "name": "🦞 TorrentClaw",
+      "description": "4K & 1080p torrent magnet links",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/torrentclaw.js",
+      "enabled": true,
+      "hasSettings": true,
+      "logo": "https://i.postimg.cc/N0mft7v8/torrentclaw.png",
+      "contentLanguage": ["en", "hi"],
+      "formats": ["mkv", "mp4"],
+      "supportsExternalPlayer": true 
+    },
+    {
       "id": "piratebay",
       "name": "🏴‍☠️ ThePirateBay",
       "description": "4K & 1080p torrent magnet links via TPB API",
       "version": "1.0.0",
-      "author": "4K Providers",
+      "author": "Nuvio Team",
       "supportedTypes": ["movie", "tv"],
       "filename": "providers/piratebay.js",
       "enabled": true,
